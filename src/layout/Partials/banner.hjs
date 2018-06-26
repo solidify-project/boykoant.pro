@@ -1,0 +1,37 @@
+    <!-- Main Board Container -->
+<div class="container-fluid mainBoardContainer">
+    <div class="row mainBoardCog">
+        <div class="col-lg-3 col-md-3 col-sm-5 col-xs-12">
+            <img class="img-responsive" alt="{{ Data.general.info.fname }} {{ Data.general.info.lname }}" src="/assets/img/BAportrait.jpg" />
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-7 col-xs-12 mainBoardLightGradientContainer"> 
+            <div class="mainBoardHeaderText">
+                {{ Data.general.info.fname }} {{ Data.general.info.lname }}
+            </div>
+            <div class="mainBoardDescriptionBlock">
+                <p>
+                    {{ Data.general.bio.banner_p1 }}
+                </p>
+                <p>
+                    {{ Data.general.bio.banner_p2 }}
+                </p>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-8 col-xs-12 mainBoardDarkGradientContainer">
+            <div class="mainBoardDarkGradientText">
+                {{# Data.general.highlights }}
+                    <p>{{ . }}</p>
+                {{/ Data.general.highlights }}
+            </div>	
+        </div>
+        
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 mainBoardBadgeContainer">
+            &nbsp;
+        </div>
+        
+    </div>
+    
+    <!-- container ends -->
+</div>

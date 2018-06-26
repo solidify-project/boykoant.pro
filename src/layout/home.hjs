@@ -1,0 +1,125 @@
+<html>
+<head>
+	{{> _head.hjs }}
+
+    <title>{{ Page.Title }}</title>
+</head>
+<body>
+    
+    {{> header.hjs }}
+
+	{{> banner.hjs }}
+	
+	<!-- Main Content Container -->
+	<div class="container-fluid marginBetweenContentBlocks contentBlockRippleBgnd">
+		<div class="row eventBlockGlobe">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+					<div>
+						<h2>
+							<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Recent Events
+						</h2>
+					</div>
+					<div class="eventBlockDateAndLocation">
+						<p>
+							Date: 21.12.2017
+						</p> 
+						<p>
+							Location: Minsk, Belarus
+						</p>
+					</div>
+					<div class="eventBlockDisclaimer">
+						Anton Boyko was a speaker at <strong>AzureDAY Belarus 2017</strong> in Minsk
+					</div>
+					<div>
+						<h3>
+							Topic: Serverless architecture - a new buzzword or something useful?
+						</h3>
+					</div>
+					<div class="eventBlockDescription">
+						<p>
+							Description: 
+						</p>
+						<p>
+							At first it sounds crazy: how can it be that my server code can run without a server? Then – ok, we are not paying for dedicated resources, we are paying for on-demand resources based on exact load. Seems really cool, isn’t it? But hey, if I will pay for on-demand resources, then I should make all my cloud code serverless tomorrow morning, so I can reduce TCO for my project. Yeah, but no.  As usual there is no silver bullet and you will always have pros and cons of any approach. During my speech, I will talk about one of my community educational projects that I made based on serverless architecture approach. I will share first-hand experience and tell you what to expect, what not to expect, what is the best and the worst scenario of using serverless architecture approach.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+					<img alt="Anton Boyko was a speaker at AzureDAY Belarus 2017 in Minsk" src="/assets/img/events/photo01.png" class="img-responsive" />
+				</div>
+			</div>
+		</div>
+		
+		<!-- container ends -->
+	</div>
+	
+	<!-- Divider -->
+	<div class="container-fluid marginBetweenContentBlocks">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dividerBlockA">
+				&nbsp;
+			</div>
+		</div>
+	</div>
+	
+	<!-- Main Content Container -->
+	<div class="container-fluid marginBetweenContentBlocks mainContentBlock">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div>
+					<h2>
+						<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Recent Projects
+					</h2>
+				</div>
+				<div>
+					<h3>
+						{{ Data.projects.solidify.title }}
+					</h3>
+
+					<p>
+						Description:
+					</p>
+
+					{{# Data.projects.solidify.description }}
+						<p>{{ . }}</p>
+					{{/ Data.projects.solidify.description }}
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	{{> banner-blog.hjs }}
+	
+	<!-- Main Content Container -->
+	<div class="container-fluid marginBetweenContentBlocks mainContentBlock">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div>
+					<h2>
+						<span class="glyphicon glyphicon-file" aria-hidden="true"></span> Recent Blog Posts
+					</h2>
+				</div>
+				<div>
+					<h3>
+						LATEST: Topic
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper neque at efficitur luctus. Morbi volutpat nunc congue erat congue, et accumsan nisi laoreet. Duis elementum metus id nisi tincidunt consequat. Maecenas sodales sem molestie, vestibulum justo quis, dignissim libero. Praesent a tellus dolor. Ut varius commodo leo, sit amet facilisis neque. Maecenas est risus, finibus nec elit vitae, bibendum rhoncus tellus. Aenean in condimentum purus. Cras finibus maximus nulla, at interdum urna euismod sed. Phasellus at malesuada nunc, nec lacinia libero. Curabitur leo tortor, gravida quis sodales ac, rhoncus non diam.
+					</p>
+					<p>
+						Nunc sit amet mollis justo. Curabitur tempus justo sem, quis ultrices orci molestie a. Sed dui sapien, aliquam non tincidunt id, gravida non augue. Nunc purus augue, elementum non quam vel, lobortis consequat ipsum. Praesent fermentum in diam dignissim egestas. Aenean ullamcorper in leo eu condimentum. Nam id leo nulla. Vestibulum sollicitudin neque et est posuere condimentum. Duis euismod ante a felis eleifend, vel aliquam eros venenatis. Aliquam ligula enim, tristique tincidunt ullamcorper eget, interdum vitae quam. Phasellus efficitur finibus ex, sed blandit ante semper non. Sed elementum luctus erat. Phasellus in nulla gravida, tempus turpis a, auctor arcu.
+					</p>
+					<p>
+						Pellentesque dignissim felis quis sem efficitur, quis lobortis enim cursus. Maecenas euismod sapien dolor, id luctus ipsum mattis nec. Aenean molestie, nunc vehicula gravida scelerisque, dolor risus vehicula justo, iaculis mollis purus augue ac dui. Sed non nunc semper, euismod elit eget, venenatis lacus. Aliquam fermentum, dolor eu posuere semper, ipsum tortor blandit dolor, et eleifend eros neque id magna. Mauris augue lectus, cursus sit amet sapien a, bibendum tempor felis. Aenean placerat, massa a pharetra finibus, felis augue vestibulum lacus, nec viverra felis dui a metus. Nullam bibendum libero in ligula sollicitudin, vitae malesuada dolor efficitur. Praesent condimentum laoreet nisi vitae vulputate.
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    {{> footer.hjs }}
+    
+</body>
+</html>

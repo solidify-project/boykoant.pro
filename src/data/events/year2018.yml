@@ -1,0 +1,78 @@
+- 
+  date: 06 June 2018
+  location: Kyiv, Ukraine
+  topic: VSTS, кросс платформенная разработка и автоматизация тестирования
+  role: "Anton Boyko was a speaker at <b>Developex Tech Club #7</b>"
+  description: Про автоматизацию тестирования сейчас знает каждый уважающий себя разработчик. Мы пишем юнит тесты чтобы проверить как наши отдельно стоящие модули работают в вакууме. Мы пишем интеграционные тесты чтобы проверить как модули приложения работают друг с другом, а также как они интегрируются с внешним миром. Казалось бы ничего нового, но вот вам сценарий - разработка кросс платформенных приложений. Мы можем взять Java, .NET Core, Node.JS, Python и сказать что на базе этих кросс платформенных технологий мы можем легко и просто построить свое приложение, вот только мы опять забываем одну важную деталь - сама технология может быть кроссплатформенной, но не любой код написанный с ее использованием является таковым. Во время своего доклада Антон покажет как можно при помощи VSTS автоматизировать запуск интеграционных тестов, которые будут запускаться на разных окружениях (Windows, Linux, Mac). При этом все будет происходить в облаке, без необходимости покупать себе новое железо.Все примеры он буду приводить на базе своего консольного приложения для создания статических сайтов, написанного на .NET Core.
+  imgCover: /assets/img/events/060618.jpg
+- 
+  date: 21 December 2017
+  location: Minsk, Belarus
+  role: Anton Boyko was a speaker at <b>AzureDAY Belarus 2017</b> in Minsk
+  topic: Serverless architecture - a new buzzword or something useful?
+  description: At first it sounds crazy, how can it be that my server code can run without a server? Then – ok, we are not paying for dedicated resources, we are paying for on-demand resources based on exact load. Seems really cool, isn’t it? But hey, if I will pay for on-demand resources, then I should make all my cloud code serverless tomorrow morning, so I can reduce TCO for my project. Yeah, but no. As usual there is no silver bullet and you will always have pros and cons of any approach. During my speech, I will talk about one of my community educational projects that I made based on serverless architecture approach. I will share first-hand experience and tell you what to expect, what not to expect, what is the best and the worst scenario of using serverless architecture approach.
+  imgCover: /assets/img/events/photo01.png
+- 
+  date: 26 May 2018
+  location: Kharkiv, Ukraine
+  topic: Ускоряем тестирование приложения при помощи Azure Container Instances
+  role: Anton Boyko was a speaker at <b>Kharkiv DevOps Meetup</b>
+  description: Наша ціль – зібрати DevOps однодумців в одному місці та побудувати майданчик для розвитку DevOps Community в Харкові. А то хто крім нас? :) 
+  imgCover: /assets/img/events/260518.jpg
+- 
+  date: 25 April 2018
+  location: Kyiv, Ukraine
+  topic: Serverless architecture - a new buzzword or something useful?
+  role: Anton Boyko was a speaker at <b>iForum 2018</b>
+  description: At first it sounds crazy, how can it be that my server code can run without a server? Then – ok, we are not paying for dedicated resources, we are paying for on-demand resources based on exact load. Seems really cool, isn’t it? But hey, if I will pay for on-demand resources, then I should make all my cloud code serverless tomorrow morning, so I can reduce TCO for my project. Yeah, but no. As usual there is no silver bullet and you will always have pros and cons of any approach. During my speech, I will talk about one of my community educational projects that I made based on serverless architecture approach. I will share first-hand experience and tell you what to expect, what not to expect, what is the best and the worst scenario of using serverless architecture approach.
+  imgCover: /assets/img/events/250418.jpg
+- 
+  date: 21 April 2018
+  location: Kyiv, Ukraine
+  topic: 
+  role: Anton Boyko organized <b>Global Azure Bootcamp 2018</b> in Kyiv
+  description: GAB - это однодневный глобальный тренинг, посвящённый Azure, организатором которого выступает мировое облачное сообщество. Первоначально данное событие было создано пятью Microsoft Azure MVP для того, чтобы поддержать местные облачные сообщества и научить всех желающих базовым навыкам работы с облачными технологиями Microsoft. Несмотря на то, что данное событие поддерживается компанией Microsoft и другими спонсорами, оно является независимым событием и организовывается исключительно местными сообществами. В Киеве Global Azure Bootcamp организовывается силами Ukrainian Microsoft Azure Community. В 2015 году Global Azure Bootcamp проходил в один день в 182 локациях в 64 странах,  включая такие страны как Непал и остров Маврикий. Общее количество людей, которые посетили Global Azure Bootcamp в 2015 году - более 5000 человек. Наверное, это самое большое ИТ мероприятие в мире, организованное сообществом. Традиционно на Global Azure Bootcamp проходят благотворительные лабораторные работы, например, в 2015 году лабораторная работа была посвящена исследованиям в области рака. В этом году также планируется выполнение лабораторной работы, которая будет использовать распределенные вычислительные мощности участников Global Azure Bootcamp. Тема и спецификации лабораторной работы 2018 года будут оглашены позднее.
+  imgCover: /assets/img/events/210418.jpg
+-
+  date: 21 April 2018
+  location: Kyiv, Ukraine
+  topic: Azure DevTest Labs and the story of one big enterprise
+  role: Anton Boyko was a speaker at <b>Global Azure Bootcamp 2018</b> in Kyiv
+  description: 
+    - "I believe all of you had this experience at least once: working in a big enterprise with all the crazy policies and stuff like that. One of my “favorite” stuff is the way how you request a new environment for testing your app. You had opened a ticket, approved it with your manager, celebrated Christmas, waited for new hardware to arrive, waited for licenses to be assigned, celebrated Easter, waited for VPN to be configured, got married, and now, finally, your environment is up and running. Unfortunately the bigger the enterprise the more truthful is the story."
+    - "In my session I will describe how we were able to deal with guys like that, how we break the old mindset and convince them that cloud is robust and relatively cheap. I will show how we moved all our dev, test and demo load to Azure DevTest Labs."
+    - "Bottomline is:"
+    - "- developers stop suffering from delays in environment provisioning"
+    - "- qa department can control which version of our app is deployed on which environment"
+    - "- single deployment model for on-premise production and cloud non-production environments"
+    - "- everything was done with PowerShell only"
+  imgCover: /assets/img/events/210418s.jpg
+-
+  date: 11 April 2018
+  location: Kyiv, Ukraine
+  topic: OpenHack Kyiv IoT and Big Data
+  role: Anton Boyko was a mentor at <b>hackathon OpenHack Kyiv IoT and Big Data</b>
+  description: OpenHack - подія, яка протягом трьох днів об'єднає розробників з різних сфер та напрямків під час захоплюючого та практичного програмування, аби разом навчитися реалізовувати певну задачу на платформі Azure, долаючи усі виклики. Приєднуйтесь до нас на ці три дні, де Ви зможете поспілкуватися з колегами зі спільноти розробників та дізнаєтеся, як побудувати IoT рішення, збирати та аналізувати великі масиви даних у хмарі.
+  imgCover: /assets/img/events/110418.png
+-
+  date: 28 March 2018
+  location: Online
+  topic: Разворачиваем Node.JS приложение в Azure на базе Linux App Service
+  role: Anton Boyko was a trainer at the webinar
+  description: Вы создатель Node.JS приложения? – Поздравляем! Теперь дело осталось за малым – нужно предоставить пользователям доступ к вашему приложению. Становитесь супер звездой Node.JS, с помощью возможностей разработки приложений и сайтов на Azure. Если вы будете использовать преднастроенные сервисы и возможности платформы Azure вы можете быть уверены, что ваши приложения будут работать в облаке без сбоев. Вебинар специально подготовлен для Node.js разработчиков. 
+  imgCover: /assets/img/events/280318.png
+-
+  date: 23 March 2018
+  location: Warsaw, Poland
+  topic: Azure DevTest Labs and the story of one big enterprise
+  role: Anton Boyko was a speaker at <b>Azure Day Poland 2018</b>
+  description:
+    - "I believe all of you had this experience at least once: working in a big enterprise with all the crazy policies and stuff like that. One of my “favorite” stuff is the way how you request a new environment for testing your app. You had opened a ticket, approved it with your manager, celebrated Christmas, waited for new hardware to arrive, waited for licenses to be assigned, celebrated Easter, waited for VPN to be configured, got married, and now, finally, your environment is up and running. Unfortunately the bigger the enterprise the more truthful is the story."
+    - "In my session I will describe how we were able to deal with guys like that, how we break the old mindset and convince them that cloud is robust and relatively cheap. I will show how we moved all our dev, test and demo load to Azure DevTest Labs."
+    - "Bottomline is:"
+    - "- developers stop suffering from delays in environment provisioning"
+    - "- qa department can control which version of our app is deployed on which environment"
+    - "- single deployment model for on-premise production and cloud non-production environments"
+    - "- everything was done with PowerShell only"
+  imgCover: /assets/img/events/230318.jpg
+

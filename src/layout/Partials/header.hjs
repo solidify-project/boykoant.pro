@@ -1,0 +1,33 @@
+<!-- Main Menu container -->
+<div class="container-fluid mainMenuContainer">
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 mainMenuCell">
+			<a href="/" class="mainMenuLink mainMenuLinkActive">
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home
+			</a>
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 mainMenuCell">
+			<a href="/about.html" class="mainMenuLink">
+				<span class="glyphicon glyphicon-phone" aria-hidden="true"></span> About
+			</a>
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 mainMenuCell">
+			<a href="/blog.html" class="mainMenuLink">
+				<span class="glyphicon glyphicon-file" aria-hidden="true"></span> Blog
+			</a>
+		</div>
+		<!-- hide projects for now 
+		<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 mainMenuCell">
+			<a href="/projects.html" class="mainMenuLink">
+				<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Projects
+			</a>
+		</div>
+		-->
+		<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 mainMenuCell">
+		<a href="/events.html" class="mainMenuLink">
+			<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Events
+		</a>
+		</div>
+	</div>
+	<!-- container ends -->
+</div>

@@ -1,0 +1,373 @@
+/* CSS Document */
+
+/* HEADERS */
+
+h1 {
+    font-size: 2em;
+    font-family: "Tahoma";
+    color: rgb(0, 114, 198);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-family: "Tahoma";
+    color: rgb(0, 114, 198);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  h3 {
+    font-size: 1.3em;
+    font-family: "Tahoma";
+    color: #000;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .marginTopTwentypx {
+      margin-top: 20px;
+  }
+  
+  /* MAIN MENU */
+  
+  .mainMenuContainer {
+      font-size: 1.2em;
+      font-family: "Tahoma";
+      color: #fff;
+      font-weight: normal;
+      line-height: 1.2;
+      text-align: center;
+  
+      background-color: #000;
+      min-height: 45px;
+  }
+  
+  .mainMenuCell {
+      padding: 10px;
+  }
+  
+  a.mainMenuLink, a.mainMenuLink:active, a.mainMenuLink:visited {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  a.mainMenuLink:hover {
+      color: rgb(0, 114, 198);
+  }
+  
+  a.mainMenuLinkActive {
+      color: rgb(0, 114, 198);
+  }
+  
+  /* MAIN BOARD */
+  
+  .mainBoardContainer {
+      background-color: rgb(89,89,89);
+      
+          background-image: -moz-linear-gradient( 174deg, rgb(59,59,59) 46%, rgb(89,89,89) 91%);
+          background-image: -webkit-linear-gradient( 174deg, rgb(59,59,59) 46%, rgb(89,89,89) 91%);
+          background-image: -ms-linear-gradient( 174deg, rgb(59,59,59) 46%, rgb(89,89,89) 91%);
+      
+      color: #fff;
+      font-size: 1em;
+      font-family: "Tahoma";
+      line-height: 1.3;
+      text-align: left;
+      
+      padding-right: 0;
+      
+      border-right: 70px rgb(0, 114, 198) solid;
+      
+      min-height: 400px;
+      
+      margin: 0;
+  }
+  
+  .mainBoardHeaderText {
+      font-size: 1.5em;
+      font-family: "Tahoma";
+      color: #fff;
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: left;
+  
+      padding: 30px 0 15px 30px;
+  }
+  
+  .mainBoardDescriptionBlock {
+      padding: 10px;
+  }
+  
+  .mainBoardLightGradientContainer {
+      padding: 10px 15px 30px 10px;	
+      text-align: justify;
+      
+      /*
+      background-image: url(../img/cog01.png);
+      background-position: 110% 110%;
+      background-clip: border-box;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      */
+      
+      min-height: 400px;
+  }
+  
+  .mainBoardCog {
+      background-image: url(../assets/img/cog01.png);
+      background-position: 57% 90%;
+      background-clip: border-box;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      z-index: 6000;
+  }
+  
+  .mainBoardDarkGradientContainer {
+      /* background-color: rgb(55, 55, 55); */
+      
+      font-size: 1.2em;
+      font-family: "Tahoma";
+      color: #fff;
+      font-weight: bold;
+      line-height: 1.6;
+      text-align: left;
+      padding: 0px;
+      
+      min-height: 400px;
+  }
+  
+  .mainBoardDarkGradientText {
+      background-color: rgb(55, 55, 55);
+      
+      min-height: 400px;
+      
+      padding: 20px 20px 15px 20px;
+      margin-right: 20px;
+  }
+  
+  .mainBoardBadgeContainer {
+      background-image: url(../assets/img/badge.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      background-clip: padding-box;
+      
+      min-width: 150px;
+      min-height: 400px;
+      
+      margin: 0;
+      padding: 0;
+      
+      /* border-right: 70px rgb(0, 114, 198) solid; */
+  }
+  
+  .mainBoardImgBadge {
+      min-height: 400px;
+      padding: 20px;
+  }
+  
+  
+  /* MAIN CONTENT */
+  
+  .marginBetweenContentBlocks {
+      margin-top: 10px; 
+  }
+  
+  .contentBlockRippleBgnd {
+      background: url(../assets/img/rippleTextureBgnd.png);
+      background-clip: content-box;
+      background-position: top left;
+      background-size: cover;
+      background-color: #ccc;
+      
+      border-left: 30px rgb(0, 114, 198) solid; 
+      
+      padding: 0;
+      margin: 10px 0 0 0;
+  }
+  
+  .eventBlockDateAndLocation {
+    font-size: 1.2em;
+    font-family: "Tahoma";
+    color: #000;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  .eventBlockDateAndLocation p {
+      margin-bottom: 3px;
+  }
+  
+  .eventBlockDisclaimer {
+      margin-top: 15px;
+  
+      font-size: 1.2em;
+      font-family: "Tahoma";
+      color: #000;
+      font-weight: normal;
+      line-height: 1.2;
+      text-align: left;
+  }
+  
+  .eventBlockDescription {
+      font-size: 1em;
+      font-family: "Tahoma";
+      color: #000;
+      font-weight: normal;
+      line-height: 1.2;
+      
+      text-align: justify;
+  }
+  
+  .eventBlockGlobe {
+          /* BGND */
+      background-image: url(../assets/img/globe01.png);
+      background-position: 57% 20%;
+      background-clip: border-box;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      z-index: 6000;
+  }
+  
+  .eventBlockDescription p:first-of-type {
+      margin-bottom: 10px;
+  }
+  
+  .eventBlockDescription p {
+      margin-bottom: 3px;
+  }
+  
+  .mainContentBlock {
+      border-left: 15px rgb(0, 114, 198) solid; 
+      
+      font-size: 1em;
+      font-family: "Tahoma";
+      color: #000;
+      font-weight: normal;
+      line-height: 1.2;
+      text-align: left;
+      
+      text-align: justify;
+  }
+  
+  /* DIVIDER */
+  
+  .dividerBlockA {
+      background-image: url(../assets/img/divider02.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      min-height: 300px;
+  }
+  
+  .dividerBlockB {
+      background-image: url(../assets/img/divider03.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      min-height: 300px;
+  }
+  
+  .dividerButton {
+      color: #fff;
+      background-color: rgb(0, 114, 198);
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align: center;
+      
+      border: solid #fff 1px;
+      
+      margin-top: 100px;
+      padding: 20px;
+  }
+  
+  .dividerButton a, .dividerButton a:active, .dividerButton a:visited, .dividerButton a:hover {
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  /* FOOTER */
+  
+  .footerGradient {
+      background-image: -moz-linear-gradient( 121deg, rgb(0,0,0) 0%, rgb(0,114,198) 70%, rgb(0,114,198) 100%);
+      background-image: -webkit-linear-gradient( 121deg, rgb(0,0,0) 0%, rgb(0,114,198) 70%, rgb(0,114,198) 100%);
+      background-image: -ms-linear-gradient( 121deg, rgb(0,0,0) 0%, rgb(0,114,198) 70%, rgb(0,114,198) 100%);
+  
+      min-height: 200px;
+  }
+
+  .footerText {
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: normal;
+    text-align: left;
+  }
+  
+  .footerCopyrightLine {
+      background-color: rgb(55, 55, 55);
+      color: #fff;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-align: center;
+      
+      padding: 10px;
+  }
+
+  .footerSocialIcons {
+      height: 50px;
+  }
+
+  .socialIconsContainer {
+      margin: 25px;
+  }
+  
+  /* ABOUT */
+  
+  /* photo view */
+  
+  .photoViewText {
+      color: #fff;
+      background-color: rgb(0, 114, 198);
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align: left;
+      
+      padding: 20px;
+      margin: 0;
+  }
+  
+  .photoViewRow {
+      background-color: rgb(0, 114, 198);
+  }
+  
+  .photoViewContainer {
+      border-bottom: 10px rgb(0, 114, 198) solid;
+      background-color: rgb(0, 114, 198);
+  }
+  
+  
+  /* BLOG */
+  
+  .blogReadMoreLink {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.15em;
+      color: rgb(0, 114, 198);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
