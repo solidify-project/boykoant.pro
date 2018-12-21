@@ -3,6 +3,8 @@
 	{{> _head.hjs }}
 
     <title>{{ Page.Title }}</title>
+
+    {{> ai.hjs }}
 </head>
 <body>
     
